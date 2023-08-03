@@ -286,6 +286,21 @@ ans=int(math.sqrt(dist))
 print(ans)
 
 
+#problem 19
+
+temp=input()
+words=temp.lower().split() #lists of words in sentence
+#print(words)
+mydict={}
+
+for i in words:
+    mydict[i]=mydict.get(i,0)+1
+
+#print(mydict)
+mydict=sorted(mydict.items());
+print(mydict)
+
+
 #problem 20
 
 def sqr(n):
@@ -293,12 +308,23 @@ def sqr(n):
 
 n=int(input("enter number"))
 m=sqr(n)
-print("square = ",m)
+print("square = ",m)"""
+
+
+#problem 21
+
+def myfun():
+    """ Documentation of myfun() -> Contains only a single print line."""
+    """print("Hello world")
+
+print(abs.__doc__)
+print(int.__doc__)
+print(myfun.__doc__)"""
 
 
 #problem 22
 
-def comp(str1,str2):
+"""def comp(str1,str2):
     if len(str1)>len(str2):
         return str1
     elif len(str1)==len(str2):
@@ -418,6 +444,17 @@ result=list1[:2]+list1[5:]
 print(result)
 
 
+#probelm 32
+
+temp=input()
+temp=temp.lower();
+mydict={}
+for i in temp:
+    mydict[i] = mydict.get(i, 0) + 1
+
+print(mydict)
+
+
 #problem 33
 
 str1=input()
@@ -455,6 +492,8 @@ print("Digits-> ",num_digits)
 print("Letters-> ",num_letters)
 
       """
+
+
 
 
 
