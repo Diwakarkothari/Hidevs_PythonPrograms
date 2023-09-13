@@ -27,3 +27,4 @@ for row in column_data[1:]:  # first row empty hai isliye
 
 # print(df)
 df.to_csv(r'companies.csv', index=False)
+#csv meinn chali jayegi
